@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Choose which feeds to remove</legend>
+
+      <div>
+          <input type="checkbox" id="facebook" class="RYS_setting_checkbox" name="feature"
+                 value="facebook" checked />
+          <label for="facebook">Facebook News Feed</label>
+      </div>
+
+      <div>
+          <input type="checkbox" id="instagram" class="RYS_setting_checkbox" name="feature"
+                 value="instagram" checked />
+          <label for="instagram">Instagram Explore Page</label>
+      </div>
+
+      <hr>
+
+      <div id="button_container">
+        <button id="reload_button">Reload</button>
+      </div>
+    </fieldset>
+
+    <div id="help-box">
+      <div id="help-header">
+      Help us make this addon better!
+      </div>
+      <!-- <hr> -->
+      <!-- Submit feedback <a href="https://docs.google.com/forms/d/e/1FAIpQLScdrPlVKpJTGeDhD85HdYD2opsedlPqaMdN3ZW-ZSRwhqBZpw/viewform">here</a>. -->
+      <!-- <br> -->
+      <!-- Donate <a href="https://www.paypal.com/donate/?cmd=_donations&business=FF9K9YD6K6SWG&currency_code=USD&amount=5">here</a>. -->
+    </div>
+
+    <script src="reload.js"></script>
+    <script src="options.js"></script>
+  </body>
+
+</html>
