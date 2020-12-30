@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*"],
+      "matches": ["*://*.facebook.com/*", "*://*.instagram.com/*"],
       "js": ["main.js"],
       "run_at": "document_start"
     }

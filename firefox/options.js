@@ -1,7 +1,7 @@
 const facebookCheckbox = document.getElementById('facebook');
 const instagramCheckbox = document.getElementById('instagram');
 facebookCheckbox.addEventListener("change", saveFacebookSetting);
-instagramCheckbox.addEventListener("change", saveinstagramSetting);
+instagramCheckbox.addEventListener("change", saveInstagramSetting);
 
 document.addEventListener("DOMContentLoaded", restoreOptions);
 
@@ -9,7 +9,7 @@ function saveFacebookSetting(e) {
 	browser.storage.local.set({ facebook: e.target.checked });
 }
 
-function saveinstagramSetting(e) {
+function saveInstagramSetting(e) {
 	browser.storage.local.set({ instagram: e.target.checked });
 }
 
