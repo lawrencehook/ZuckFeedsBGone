@@ -18,6 +18,7 @@ function onGotFacebookSetting(result) {
 
   if (facebook) {
     removeSelectors([
+      ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.g5gj957u.pmt1y7k9.buofh1pr.hpfvmrgz.taijpn5t.gs1a9yip.owycx6da.btwxx1t3.f7vcsfb0.fjf4s8hc.b6rwyo50.oyrvap6t"
     ]);
   }
 }
@@ -28,9 +29,10 @@ function onGotFacebookSetting(result) {
 function onGotInstagramSetting(result) {
   const instagram = result.instagram === undefined ? true : result.instagram;
   browser.storage.local.set({ instagram });
+
   if (instagram) {
     removeSelectors([
-      
+      ".mJ2Qv._2Z_Zl.YrkqH"
     ]);
   }
 }
