@@ -2,13 +2,19 @@
   "description": "Remove the Facebook news feed and Instagram Explore feed.",
   "manifest_version": 2,
   "name": "ZuckFeedsBGone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage_url": "https://github.com/lawrencehook/ZuckFeedsBGone",
 
   "content_scripts": [
     {
+      "js": ["js/main.js"],
       "matches": ["*://*.facebook.com/*", "*://*.instagram.com/*"],
-      "js": ["main.js"],
+      "run_at": "document_start"
+    },
+    {
+      "css": ["css/main.css"],
+      "all_frames": true,
+      "matches": ["*://*.facebook.com/*", "*://*.instagram.com/*"],
       "run_at": "document_start"
     }
   ],
@@ -24,11 +30,10 @@
     "default_popup": "options.html",
     "default_title": "Options",
     "default_icon": {
-      "16": "icons/16.png",
-      "32": "icons/32.png",
-      "64": "icons/64.png"
-    },
-    "default_title": "ZuckFeedsBGone"
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "64": "images/64.png"
+    }
   },
 
   "permissions": ["storage"]
