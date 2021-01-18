@@ -1,5 +1,7 @@
 const HTML = document.documentElement;
 const DEFAULT_SETTINGS = {
+  "remove_facebook_stories": true,
+  "remove_facebook_rooms": true,
   "remove_facebook_newsfeed": true,
   "remove_facebook_top_middle_bar": true,
   "remove_facebook_left_bar": true,
