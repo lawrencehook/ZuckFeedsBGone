@@ -1,7 +1,11 @@
 const HTML = document.documentElement;
 const DEFAULT_SETTINGS = {
   "remove_facebook_newsfeed": true,
-  "remove_instagram_explore": true
+  "remove_facebook_top_middle_bar": true,
+  "remove_facebook_left_bar": true,
+  "remove_instagram_explore": true,
+  "remove_instagram_stories": true,
+  "remove_instagram_suggestions": true
 }
 
 // Make checkboxes reflect local settings
