@@ -1,8 +1,5 @@
-
-/* Stories */
 html[remove_facebook_stories="true"] div[aria-label="Stories"],
 
-/* Rooms */
 html[remove_facebook_rooms="true"] div[data-pagelet="VideoChatHomeUnit"],
 
 html[remove_facebook_newsfeed="true"] .pedkr2u6.tn0ko95a.pnx7fd3z,
