@@ -3,7 +3,7 @@
 
 Facebook and Instagram can be sources of great distraction. With this add-on you can tailor them as you please!
 
-### Elements that can be removed
+### Settings
 Facebook
 - Stories
 - Rooms
