@@ -3,6 +3,7 @@
 
 Facebook and Instagram can be sources of great distraction. With this add-on you can tailor them as you please!
 
+### Elements that can be removed
 Facebook
 - Stories
 - Rooms
@@ -16,9 +17,10 @@ Instagram
 
 More to come. Suggestions welcome.
 
+### Installation
 Available for install here: 
-Chrome: https://chrome.google.com/webstore/detail/zuckfeedsbgone/kooiaahgockphpnecfojolndjhlnnljg?hl=en
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-s-suggestions/
+- Chrome: https://chrome.google.com/webstore/detail/zuckfeedsbgone/kooiaahgockphpnecfojolndjhlnnljg?hl=en
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-s-suggestions/
 
 ### Contributing
 If you'd like to contribute to the development of this add-on, the following commands should get you started with a dev environment.
