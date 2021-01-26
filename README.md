@@ -1,7 +1,7 @@
 # ZuckFeedsBGone
 #### A Browser Extension
 
-Facebook and Instagram can be sources of great distraction. With this add-on you can tailor them as you please!
+Facebook and Instagram can be sources of great distraction. With this add-on you can tailor them as you please.
 
 ### Installation
 Available for install here: 
