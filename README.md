@@ -8,7 +8,7 @@ Available for install here:
 - Chrome: https://chrome.google.com/webstore/detail/zuckfeedsbgone/kooiaahgockphpnecfojolndjhlnnljg?hl=en
 - Firefox: https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-s-suggestions/
 
-### Settings
+### Available Settings
 Facebook
 - Stories
 - Rooms
