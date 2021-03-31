@@ -2,7 +2,7 @@
   "name": "ZuckFeedsBGone",
   "description": "Spend less time on social media. Regain control of your attention with options to remove the Facebook news feed and more!",
   "manifest_version": 2,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage_url": "https://github.com/lawrencehook/ZuckFeedsBGone",
 
   "content_scripts": [
